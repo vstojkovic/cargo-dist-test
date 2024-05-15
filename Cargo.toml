@@ -1,3 +1,6 @@
 [workspace]
 resolver = "2"
 members = ["internal-lib","main-app"]
+
+[workspace.package]
+repository = "https://github.com/vstojkovic/cargo-dist-test"
